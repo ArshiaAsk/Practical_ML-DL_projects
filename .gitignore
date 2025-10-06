@@ -1,0 +1,59 @@
+# ===== Python cache & virtual env =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== SQLite / DB local files =====
+*.sqlite
+*.sqlite3
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Logs / Temporary =====
+*.log
+*.tmp
+*.bak
+
+# ===== Archives =====
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ===== Datasets (large files) =====
+# Ignore local raw datasets unless using Git LFS
+data/
+dataset/
+datasets/
+raw_data/
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# ===== Images / Media heavy =====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# ===== Keep important docs =====
+!README.md
+!.gitignore
+
